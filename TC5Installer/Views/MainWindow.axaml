@@ -1,0 +1,106 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:TC5Installer.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="600" d:DesignHeight="500"
+        x:Class="TC5Installer.Views.MainWindow"
+        x:DataType="vm:InstallerViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="TC5 Installer"
+        Width="900" Height="600">
+
+    <Design.DataContext>
+        <vm:InstallerViewModel />
+    </Design.DataContext>
+
+    <ScrollViewer Padding="20">
+        <StackPanel Spacing="20">
+
+            <!-- Title -->
+            <TextBlock
+                Text="TC5 Deployment Installer"
+                FontSize="24" FontWeight="Bold"
+                HorizontalAlignment="Center"
+                Margin="0,0,0,20" />
+
+            <!-- Source Path Section -->
+            <StackPanel Spacing="10">
+                <TextBlock
+                    Text="Source Deployment Path:"
+                    FontWeight="SemiBold" />
+                <Grid ColumnDefinitions="*,Auto">
+                    <TextBox
+                        Grid.Column="0"
+                        Text="{Binding SourcePath}"
+                        IsReadOnly="True"
+                        Watermark="Click 'Browse' to select source folder" />
+                    <Button
+                        Grid.Column="1"
+                        Content="Browse..."
+                        Command="{Binding SelectSourceCommand}"
+                        Margin="10,0,0,0" Width="80" />
+                </Grid>
+            </StackPanel>
+
+            <!-- Target Path Section -->
+            <StackPanel Spacing="10">
+                <TextBlock
+                    Text="Target Installation Path:"
+                    FontWeight="SemiBold" />
+                <Grid ColumnDefinitions="*,Auto">
+                    <TextBox
+                        Grid.Column="0"
+                        Text="{Binding TargetPath}"
+                        IsReadOnly="True"
+                        Watermark="Click 'Browse' to select target folder" />
+                    <Button
+                        Grid.Column="1"
+                        Content="Browse..."
+                        Command="{Binding SelectTargetCommand}"
+                        Margin="10,0,0,0" Width="80" />
+                </Grid>
+            </StackPanel>
+
+            <!-- Warning Messages -->
+            <TextBlock
+                Text="{Binding WarningMessage}"
+                Foreground="Orange" FontWeight="SemiBold"
+                TextWrapping="Wrap"
+                IsVisible="{Binding WarningMessage, Converter={x:Static StringConverters.IsNotNullOrEmpty}}" />
+
+            <!-- Options Section -->
+            <StackPanel Spacing="10" IsVisible="{Binding ShowLogsOption}">
+                <CheckBox
+                    Content="Keep existing logs directory"
+                    IsChecked="{Binding KeepLogs}" />
+            </StackPanel>
+
+            <StackPanel Spacing="10" IsVisible="{Binding ShowDataOption}">
+                <CheckBox
+                    Content="Keep existing data directory"
+                    IsChecked="{Binding KeepData}" />
+            </StackPanel>
+            
+            <StackPanel Spacing="10" IsVisible="{Binding ShowDeploymentOption}">
+                <CheckBox
+                    Content="Keep existing deployment directory"
+                    IsChecked="{Binding KeepDeployment}" />
+            </StackPanel>
+            
+            <!-- Install Button -->
+            <Button Content="Install"
+                    Command="{Binding InstallCommand}"
+                    HorizontalAlignment="Center"
+                    Padding="40,10" FontSize="16" FontWeight="SemiBold"
+                    IsEnabled="{Binding !IsInstalling}" />
+            
+            <!-- Progress Section -->
+            <StackPanel Spacing="10" IsVisible="{Binding IsInstalling}">
+                <ProgressBar IsIndeterminate="True" Height="6" />
+            </StackPanel>
+
+        </StackPanel>
+    </ScrollViewer>
+
+</Window>
