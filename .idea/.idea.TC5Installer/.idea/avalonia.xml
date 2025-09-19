@@ -3,6 +3,7 @@
   <component name="AvaloniaProject">
     <option name="projectPerEditor">
       <map>
+        <entry key="TC5Installer/App.axaml" value="TC5Installer/TC5Installer.csproj" />
         <entry key="TC5Installer/Views/MainWindow.axaml" value="TC5Installer/TC5Installer.csproj" />
       </map>
     </option>
