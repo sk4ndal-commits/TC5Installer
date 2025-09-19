@@ -8,19 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c38b5be-b1d3-461f-9cb8-3975ea4fe117" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TC5Installer.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TC5Installer/App.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TC5Installer/App.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TC5Installer/Assets/avalonia-logo.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TC5Installer/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TC5Installer/TC5Installer.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TC5Installer/ViewLocator.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TC5Installer/ViewModels/MainWindowViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TC5Installer/ViewModels/ViewModelBase.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TC5Installer/Views/MainWindow.axaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TC5Installer/Views/MainWindow.axaml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TC5Installer/app.manifest" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TC5Installer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TC5Installer/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +27,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f46d8257f4c1dc361b73ec7a2fa4d14a2b9f79568db1e74156c505c679420c2/AsyncRelayCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file:///tmp/JetBrainsPerUserTemp-1000-1/SourceGeneratedDocuments/ABDD566CF691F80E6C053449/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/TC5Installer.ViewModels.InstallerViewModel.g.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -99,16 +88,29 @@
       <updated>1757704021922</updated>
       <workItem from="1757704024272" duration="5667000" />
       <workItem from="1757710333269" duration="1764000" />
-      <workItem from="1757887011630" duration="922000" />
+      <workItem from="1757887011630" duration="948000" />
+      <workItem from="1758318692594" duration="309000" />
     </task>
+    <task id="LOCAL-00001" summary="Add core deployment functionality for TC5Installer, including models, services, and ViewModel integration.">
+      <option name="closed" value="true" />
+      <created>1757887945513</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1757887945513</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Add core deployment functionality for TC5Installer, including models, services, and ViewModel integration." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add core deployment functionality for TC5Installer, including models, services, and ViewModel integration." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
