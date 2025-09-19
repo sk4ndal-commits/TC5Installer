@@ -3,7 +3,6 @@
              x:Class="TC5Installer.App"
              xmlns:local="using:TC5Installer"
              RequestedThemeVariant="Default">
-             <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
 
     <Application.DataTemplates>
         <local:ViewLocator/>
