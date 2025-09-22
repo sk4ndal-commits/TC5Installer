@@ -34,10 +34,10 @@
   }
 }</component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/8e0e5cfdf5354375b88e811a052f3521e26200/_41dba/IProgress.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9a2912aa19f1b0ab2229159cec21d718356660fc49cd8e5257a66b584b69b/Design.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b33f55286658b1bc91efc6c6edee2a6e8d011b08bf01cf7d9e4612abd4237ee/ProgressBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f46d8257f4c1dc361b73ec7a2fa4d14a2b9f79568db1e74156c505c679420c2/AsyncRelayCommand.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///home/sascha-roggatz/Dev/TC5Installer/TC5Installer/TC5Installer/App.axaml" root0="SKIP_HIGHLIGHTING" />
     <setting file="file:///tmp/JetBrainsPerUserTemp-1000-1/SourceGeneratedDocuments/ABDD566CF691F80E6C053449/CommunityToolkit.Mvvm.SourceGenerators/CommunityToolkit.Mvvm.SourceGenerators.ObservablePropertyGenerator/TC5Installer.ViewModels.InstallerViewModel.g.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -63,7 +63,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -104,6 +104,7 @@
       <workItem from="1757710333269" duration="1764000" />
       <workItem from="1757887011630" duration="948000" />
       <workItem from="1758318692594" duration="1757000" />
+      <workItem from="1758521082316" duration="329000" />
     </task>
     <task id="LOCAL-00001" summary="Add core deployment functionality for TC5Installer, including models, services, and ViewModel integration.">
       <option name="closed" value="true" />
@@ -129,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758319416430</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update workspace configuration: adjust default changelist, switch git placeholder to 'main', and add GitHub integration details.">
+      <option name="closed" value="true" />
+      <created>1758521182438</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758521182438</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +151,8 @@
     <MESSAGE value="Add core deployment functionality for TC5Installer, including models, services, and ViewModel integration." />
     <MESSAGE value="Remove unused components and clean up MainWindow view layout in TC5Installer." />
     <MESSAGE value="Remove MainWindowViewModel and unused comment in App.axaml. Clean up workspace configuration." />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove MainWindowViewModel and unused comment in App.axaml. Clean up workspace configuration." />
+    <MESSAGE value="Update workspace configuration: adjust default changelist, switch git placeholder to 'main', and add GitHub integration details." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update workspace configuration: adjust default changelist, switch git placeholder to 'main', and add GitHub integration details." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
