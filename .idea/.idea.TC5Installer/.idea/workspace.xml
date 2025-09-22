@@ -7,7 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c38b5be-b1d3-461f-9cb8-3975ea4fe117" name="Changes" comment="" />
+    <list default="true" id="8c38b5be-b1d3-461f-9cb8-3975ea4fe117" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.TC5Installer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.TC5Installer/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +21,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sk4ndal-commits&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sk4ndal-commits/TC5Installer.git&quot;,
+    &quot;accountId&quot;: &quot;2ec065a1-4830-4fdc-8827-d79026c22a09&quot;
+  }
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/9a2912aa19f1b0ab2229159cec21d718356660fc49cd8e5257a66b584b69b/Design.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/b33f55286658b1bc91efc6c6edee2a6e8d011b08bf01cf7d9e4612abd4237ee/ProgressBar.cs" root0="FORCE_HIGHLIGHTING" />
@@ -40,8 +54,9 @@
     &quot;.NET Project.TC5Installer.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -88,7 +103,7 @@
       <workItem from="1757704024272" duration="5667000" />
       <workItem from="1757710333269" duration="1764000" />
       <workItem from="1757887011630" duration="948000" />
-      <workItem from="1758318692594" duration="1255000" />
+      <workItem from="1758318692594" duration="1757000" />
     </task>
     <task id="LOCAL-00001" summary="Add core deployment functionality for TC5Installer, including models, services, and ViewModel integration.">
       <option name="closed" value="true" />
